@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif);
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    display: block; /* Altere de flex para block para evitar limitações */
+    
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 50px; /* Aumenta o tamanho do título */
+    text-align: center; /* Alinha o texto do título ao centro */
+}
+
+/* Estilo para o botão Home */
+.nav button, .botao {
+    background-color: transparent; /* Cor de fundo roxa */
+    color: white; /* Cor do texto branca */
+    font-size: 18px; /* Aumenta o tamanho do texto */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Mostra o cursor de clique */
+    text-align: center; /* Alinha o texto do botão ao centro */
+    margin: 15px; /* Adiciona espaçamento entre os botões */
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.nav button a, .botao a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Garante que o texto do link seja branco */
+}
+
+.documentacao {
+    margin-bottom: -500px;
+}
+
+.botao {
+    margin-bottom: -500px;
+}
+
+.titulodoc {
+    margin-bottom: -400px;
+}
+
+.conteiner {
+    min-height: 100vh; /* Permite que o contêiner cresça com o conteúdo */
+    display: block; /* Altere de flex para block para evitar limitações */
+    margin-left: 400px; /* Centraliza horizontalmente, se necessário */
+}
+
+.documentacao img {
+    display: block; /* Faz com que cada imagem ocupe uma linha inteira */
+    margin-left: 2000px; /* Centraliza as imagens e adiciona espaçamento vertical */
+    width: 600px; /* Define a largura das imagens */
+}
+
+#DownloadButton {
+    background-color: rgb(19, 218, 69);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Pixelify Sans, sans-serif";
+    justify-content: center;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+}
+
+#DownloadButtonPDF {
+    background-color: rgb(221, 24, 24);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Pixelify Sans, sans-serif";
+    justify-content: center;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+}
+
+#pdfimg {
+    justify-content: center;
+    align-items: center;
+}
