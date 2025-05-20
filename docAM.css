@@ -15,76 +15,68 @@ h1 {
     text-align: center; /* Alinha o texto do título ao centro */
 }
 
-/* Estilo para o botão Home */
-.nav button, .botao {
-    background-color: transparent; /* Cor de fundo roxa */
-    color: white; /* Cor do texto branca */
-    font-size: 18px; /* Aumenta o tamanho do texto */
-    padding: 10px 20px; /* Adiciona espaçamento interno */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
-    cursor: pointer; /* Mostra o cursor de clique */
-    text-align: center; /* Alinha o texto do botão ao centro */
-    margin: 15px; /* Adiciona espaçamento entre os botões */
-    font-family: "Pixelify Sans", sans-serif;
+.nav {
+    margin-bottom: 20px; /* Ajusta o espaçamento inferior */
+    text-align: center; /* Centraliza o botão no contêiner */
 }
 
-.nav button a, .botao a {
+.lists {
+    margin-top: 10px; /* Adiciona um espaçamento superior ao botão */
+    text-align: center; /* Centraliza o botão */
+}
+
+/* Estilo para o botão "Home" */
+.lists li a {
+    display: inline-block; /* Faz o botão se comportar como um bloco inline */
     text-decoration: none; /* Remove o sublinhado do link */
-    color: white; /* Garante que o texto do link seja branco */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 20px; /* Define o tamanho do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    background-color: #6a0dad; /* Cor de fundo roxa */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border: none; /* Remove a borda */
+    width: auto; /* Define o tamanho do botão com base no conteúdo */
+    cursor: pointer; /* Adiciona o cursor de ponteiro ao passar o mouse */
 }
 
-.documentacao {
-    margin-bottom: -500px;
+/* Estilo para o botão "Home" */
+.home-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 24px; /* Aumenta o tamanho do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-align: center; /* Centraliza o texto */
+    display: inline-block; /* Faz o link se comportar como um bloco inline */
+    margin: 10px 0; /* Adiciona espaçamento ao redor do botão */
+    cursor: pointer; /* Adiciona o cursor de ponteiro ao passar o mouse */
 }
 
-.botao {
-    margin-bottom: -500px;
+.home-link:hover {
+    color: #97afff; /* Altera a cor do texto ao passar o mouse */
 }
 
-.titulodoc {
-    margin-bottom: -400px;
-}
-
-.conteiner {
-    min-height: 100vh; /* Permite que o contêiner cresça com o conteúdo */
-    display: block; /* Altere de flex para block para evitar limitações */
-    margin-left: 400px; /* Centraliza horizontalmente, se necessário */
-}
-
-.documentacao img {
+.conteiner img {
     display: block; /* Faz com que cada imagem ocupe uma linha inteira */
-    margin-left: 2000px; /* Centraliza as imagens e adiciona espaçamento vertical */
-    width: 600px; /* Define a largura das imagens */
+    margin: 20px auto; /* Centraliza as imagens horizontalmente e adiciona espaçamento vertical */
+    width: 80%; /* Ajusta a largura das imagens */
+    max-width: 794px; /* Define um limite máximo de largura (A4) */
+    height: auto; /* Mantém a proporção das imagens */
 }
 
-#DownloadButton {
-    background-color: rgb(19, 218, 69);
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-family: "Pixelify Sans, sans-serif";
-    justify-content: center;
-    margin-top: 15px;
-    width: 300px;
-    height: 50px;
+.download-button {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 24px; /* Aumenta o tamanho do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-align: center; /* Centraliza o texto */
+    display: inline-block; /* Faz o botão se comportar como um bloco inline */
+    margin: 20px auto; /* Centraliza o botão horizontalmente e adiciona espaçamento vertical */
+    cursor: pointer; /* Adiciona o cursor de ponteiro ao passar o mouse */
 }
 
-#DownloadButtonPDF {
-    background-color: rgb(221, 24, 24);
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-family: "Pixelify Sans, sans-serif";
-    justify-content: center;
-    margin-top: 15px;
-    width: 300px;
-    height: 50px;
+.download-button:hover {
+    color: #97afff; /* Altera a cor do texto ao passar o mouse */
 }
 
-#pdfimg {
-    justify-content: center;
-    align-items: center;
-}
