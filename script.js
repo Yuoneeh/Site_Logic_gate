@@ -5,10 +5,10 @@
       const link = document.createElement('a');
       
       // Define o destino do link como o caminho do arquivo a ser baixado
-      link.href = 'https://github.com/Yuoneeh/Projeto_Game_and_Site_Portas/blob/main/Jogo_execut%C3%A1vel/Logic_gate_GDscript.rar'; // Caminho relativo para o arquivo no servidor
+      link.href = 'https://raw.githubusercontent.com/Yuoneeh/Projeto_Game_and_Site_Portas/main/Jogo_executável/Logic_gate_GDscript.rar'; // Caminho relativo para o arquivo no servidor
       
       // Define o nome padrão que o arquivo terá ao ser baixado
-      link.download = 'https://github.com/Yuoneeh/Projeto_Game_and_Site_Portas/blob/main/Jogo_execut%C3%A1vel/Logic_gate_GDscript.rar';
+      link.download = 'Logic_gate_GDscript.rar';
 
       // Adiciona o link invisivelmente ao corpo do documento
       document.body.appendChild(link);
